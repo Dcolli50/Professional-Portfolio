@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #e99f31;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(Assets\Images\IMG_0285.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #38e5fc;
+      margin: 0;
+      font-style: oblique;
+  }
+
+  header a {
+      color: #38e5fc;
+  }
+
+  Header a {
+      text-decoration: none;
+      color: #38e5fc;
+  }
+
+  header nav {
+
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+ padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+   /* styles to <header> End */
+
+    /* styles to <footer> */
+  footer {
+    background: #e99f31;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer h2 {
+    color: #38e5fc;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer a {
+    color: #38e5fc;
+  }
+
+  section {
+    padding: 60px;
+  }
+    /* styles to <footer> End */
+
+        /* styles to Hero */
+  .hero {
+    background-image: url("Assets\Images\IMG_0285.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  .hero-cta {
+    width: 35%;
+    text-align: left;
+    margin: 3.5%;
+    color: #39a6b2;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #38c4fc;
+  }
+  /* HERO STYLES END */
+
+    /* My Work Style Starts */
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #e99f31;
+}
+
+.Project1 {
+    border: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 15px;
+    margin: 10px;
+    background-image: url("Assets\Images\bg-image1.jpg");
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Project2 {
+    border: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 15px;
+    margin: 10px;
+    background-image: url("Assets\Images\bg-image2.jpg");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Project3 {
+    border: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 15px;
+    margin: 10px;
+    background-image: url("Assets\Images\bg-image3.jpg");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+  /* REACH OUT STYLES START */
+.contact {
+  background: #e99f31;
+}
+
+.contact h2 {
+  color: #38e5fc;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info iframe {
+  height: 400px;
+}
+
+.contact-info div {
+  color: white;
+}
+
+.contact-info h3 {
+  color: #38e5fc;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #39a6b2;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #38e5fc;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+/* REACH OUT STYLES END */
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
