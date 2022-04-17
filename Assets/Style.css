@@ -20,10 +20,10 @@ header {
     position: sticky;
     top: 0;
     /* background-image: url("./Images/IMG_0285.jpg"); */
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 100%;
+    background-position: 100%; */
   }
 
   header h1 {
@@ -54,7 +54,7 @@ header {
   header nav ul li a {
  padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2vw;
   }
    /* styles to <header> End */
 
@@ -86,9 +86,9 @@ header {
   section {
     padding: 60px;
   }
-    /* styles to <footer> End */
+/* styles to <footer> End */
 
-        /* styles to Hero */
+ /* styles to Hero */
   .hero {
     background-image: url("./Images/IMG_0285.jpg");
     background-size: cover;
@@ -120,9 +120,9 @@ header {
     font-size: 55px;
     color: #38c4fc;
   }
-  /* HERO STYLES END */
+/* HERO STYLES END */
 
-    /* My Work Style Starts */
+/* My Work Style Starts */
   .projects {
     display: flex;
     justify-content: center;
@@ -193,8 +193,9 @@ header {
     color: #e99f31;
     border-radius: 10px;
 }
+/* My Work Style Ends*/
 
-  /* REACH OUT STYLES START */
+/* REACH OUT STYLES START */
 .contact {
   background: #e99f31;
 }
