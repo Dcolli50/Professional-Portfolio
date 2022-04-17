@@ -12,18 +12,18 @@ body {
   /* styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: #e99f31;
+    background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url(Assets\Images\IMG_0285.jpg);
+    /* background-image: url("./Images/IMG_0285.jpg"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 100%;
   }
 
   header h1 {
@@ -34,17 +34,12 @@ header {
       font-style: oblique;
   }
 
-  header a {
-      color: #38e5fc;
-  }
-
   Header a {
       text-decoration: none;
-      color: #38e5fc;
+      color: #fcc838;
   }
 
   header nav {
-
     margin: 7px 0;
   }
 
@@ -95,7 +90,7 @@ header {
 
         /* styles to Hero */
   .hero {
-    background-image: url("Assets\Images\IMG_0285.jpg");
+    background-image: url("./Images/IMG_0285.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -103,7 +98,8 @@ header {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 100%;
+    min-height: 750px;
   }
 
   .hero-cta {
@@ -113,6 +109,10 @@ header {
     color: #39a6b2;
     font-size: 18px;
     line-height: 1.2;
+    background-color: #e99f31;
+    border: 3px solid #39a6b2;
+    border-radius: 10px;
+    min-width: 300px;
   }
 
   .hero-cta h2 {
@@ -131,42 +131,67 @@ header {
 }
 
 .Project1 {
-    border: 1px solid #39a6b2;
+    border: 5px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     padding: 7px 15px;
     margin: 10px;
-    background-image: url("Assets\Images\bg-image1.jpg");
+    background-image: url("./Images/bg-image1.jpg");
     height: 500px;
     width: 500px;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 
+.Project1 a {
+    background-color: #39a6b2;
+    padding: 5px;
+    color: #e99f31;
+    border-radius: 10px;
+}
+
+
 .Project2 {
-    border: 1px solid #39a6b2;
+    border: 5px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     padding: 7px 15px;
     margin: 10px;
-    background-image: url("Assets\Images\bg-image2.jpg");
+    background-image: url("./Images/bg-image2.jpg");
     height: 200px;
-    width: 200px;
+    width: 500px;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
+}
+
+.Project2 a {
+    background-color: #39a6b2;
+    padding: 5px;
+    color: #e99f31;
+    border-radius: 10px;
 }
 
 .Project3 {
-    border: 1px solid #39a6b2;
+    border: 3px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     padding: 7px 15px;
     margin: 10px;
-    background-image: url("Assets\Images\bg-image3.jpg");
+    background-image: url("./Images/bg-image3.jpg");
     height: 200px;
-    width: 200px;
+    width: 500px;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
+}
+
+.Project3 a {
+    background-color: #39a6b2;
+    padding: 5px;
+    color: #e99f31;
+    border-radius: 10px;
 }
 
   /* REACH OUT STYLES START */
@@ -189,7 +214,7 @@ header {
   margin: 15px;
 }
 
-.contact-info iframe {
+.gif{
   height: 400px;
 }
 
